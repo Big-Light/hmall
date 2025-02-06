@@ -36,7 +36,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements ICartService {
 
-    private final ItemClient itemClient;
+    private  ItemClient itemClient;
 
     @Override
     public void addItem2Cart(CartFormDTO cartFormDTO) {
@@ -80,8 +80,10 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
         // 1.获取商品id TODO 处理商品信息
         Set<Long> itemIds = vos.stream().map(CartVO::getItemId).collect(Collectors.toSet());
         // 2.查询商品
-        List<ItemDTO> items = itemService.queryItemByIds(itemIds);
-
+        List<ItemDTO> items = itemClient.queryItemByIds(itemIds);
+        if (CollUtils.isEmpty(items)) {
+            return;
+        }
         // 3.转为 id 到 item的map
         Map<Long, ItemDTO> itemMap = items.stream().collect(Collectors.toMap(ItemDTO::getId, Function.identity()));
         // 4.写入vo
