@@ -1,0 +1,152 @@
+17:55:19:111  INFO 4784 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.23 on XCF-PC with PID 4784 (D:\code\hmall\hm-service\target\classes started by xcf in D:\code\hmall)
+17:55:19:114 DEBUG 4784 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+17:55:19:114  INFO 4784 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+17:55:20:577  INFO 4784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17:55:20:578  INFO 4784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:55:20:600  INFO 4784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+17:55:20:942  INFO 4784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+17:55:20:948  INFO 4784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+17:55:20:948  INFO 4784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:55:21:033  INFO 4784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+17:55:21:034  INFO 4784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1893 ms
+17:55:22:452  INFO 4784 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:55:22:698  WARN 4784 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+17:55:22:714  INFO 4784 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+17:55:22:721  INFO 4784 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:55:22:732 ERROR 4784 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+17:58:52:289  INFO 40516 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.23 on XCF-PC with PID 40516 (D:\code\hmall\hm-service\target\classes started by xcf in D:\code\hmall)
+17:58:52:290 DEBUG 40516 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+17:58:52:291  INFO 40516 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+17:58:52:787  INFO 40516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17:58:52:788  INFO 40516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:58:52:809  INFO 40516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+17:58:53:191  INFO 40516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+17:58:53:197  INFO 40516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+17:58:53:197  INFO 40516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:58:53:280  INFO 40516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+17:58:53:281  INFO 40516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 964 ms
+17:58:54:669  INFO 40516 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:58:54:903  INFO 40516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+17:58:54:904  INFO 40516 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+17:58:54:905  INFO 40516 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+17:58:54:924  INFO 40516 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+17:58:55:054  INFO 40516 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.047 seconds (JVM running for 3.728)
+18:05:18:115  INFO 40516 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:05:18:115  INFO 40516 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+18:05:18:116  INFO 40516 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+18:05:18:246  INFO 40516 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+18:05:18:475  INFO 40516 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+18:05:18:480 DEBUG 40516 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+18:05:18:494 DEBUG 40516 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: jack(String)
+18:05:18:544 DEBUG 40516 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
+18:05:18:830 DEBUG 40516 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+18:05:18:830 DEBUG 40516 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+18:05:18:844 DEBUG 40516 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : <==      Total: 0
+18:11:32:265 DEBUG 40516 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:11:32:265 DEBUG 40516 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:11:32:331 DEBUG 40516 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:11:32:336 DEBUG 40516 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:11:32:336 DEBUG 40516 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
+18:11:32:358 DEBUG 40516 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
+18:12:05:049 DEBUG 40516 --- [http-nio-8080-exec-9] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:12:05:050 DEBUG 40516 --- [http-nio-8080-exec-9] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:12:05:073 DEBUG 40516 --- [http-nio-8080-exec-9] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:12:05:074 DEBUG 40516 --- [http-nio-8080-exec-9] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:12:05:075 DEBUG 40516 --- [http-nio-8080-exec-9] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:12:05:077 DEBUG 40516 --- [http-nio-8080-exec-9] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:12:11:363 DEBUG 40516 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:12:11:363 DEBUG 40516 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:12:11:384 DEBUG 40516 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:12:11:385 DEBUG 40516 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:12:11:385 DEBUG 40516 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:12:11:388 DEBUG 40516 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:13:05:803 DEBUG 40516 --- [http-nio-8080-exec-1] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:13:05:804 DEBUG 40516 --- [http-nio-8080-exec-1] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:13:05:826 DEBUG 40516 --- [http-nio-8080-exec-1] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:13:05:827 DEBUG 40516 --- [http-nio-8080-exec-1] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:13:05:827 DEBUG 40516 --- [http-nio-8080-exec-1] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:13:05:829 DEBUG 40516 --- [http-nio-8080-exec-1] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:13:06:820 DEBUG 40516 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:13:06:821 DEBUG 40516 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:13:06:841 DEBUG 40516 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:13:06:842 DEBUG 40516 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:13:06:842 DEBUG 40516 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:13:06:844 DEBUG 40516 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:11:131 DEBUG 40516 --- [http-nio-8080-exec-94] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:11:131 DEBUG 40516 --- [http-nio-8080-exec-94] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:11:151 DEBUG 40516 --- [http-nio-8080-exec-94] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:11:153 DEBUG 40516 --- [http-nio-8080-exec-94] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:11:153 DEBUG 40516 --- [http-nio-8080-exec-94] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:11:155 DEBUG 40516 --- [http-nio-8080-exec-94] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:12:458 DEBUG 40516 --- [http-nio-8080-exec-109] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:12:459 DEBUG 40516 --- [http-nio-8080-exec-109] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:12:479 DEBUG 40516 --- [http-nio-8080-exec-109] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:12:480 DEBUG 40516 --- [http-nio-8080-exec-109] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:12:481 DEBUG 40516 --- [http-nio-8080-exec-109] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:12:483 DEBUG 40516 --- [http-nio-8080-exec-109] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:13:322 DEBUG 40516 --- [http-nio-8080-exec-7] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:13:322 DEBUG 40516 --- [http-nio-8080-exec-7] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:13:342 DEBUG 40516 --- [http-nio-8080-exec-7] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:13:343 DEBUG 40516 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:13:343 DEBUG 40516 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:13:345 DEBUG 40516 --- [http-nio-8080-exec-7] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:14:022 DEBUG 40516 --- [http-nio-8080-exec-109] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:14:023 DEBUG 40516 --- [http-nio-8080-exec-109] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:14:042 DEBUG 40516 --- [http-nio-8080-exec-109] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:14:043 DEBUG 40516 --- [http-nio-8080-exec-109] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:14:044 DEBUG 40516 --- [http-nio-8080-exec-109] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:14:046 DEBUG 40516 --- [http-nio-8080-exec-109] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:15:299 DEBUG 40516 --- [http-nio-8080-exec-127] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:15:299 DEBUG 40516 --- [http-nio-8080-exec-127] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:15:319 DEBUG 40516 --- [http-nio-8080-exec-127] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:15:319 DEBUG 40516 --- [http-nio-8080-exec-127] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:15:320 DEBUG 40516 --- [http-nio-8080-exec-127] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:15:322 DEBUG 40516 --- [http-nio-8080-exec-127] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:16:090 DEBUG 40516 --- [http-nio-8080-exec-36] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:16:091 DEBUG 40516 --- [http-nio-8080-exec-36] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:16:108 DEBUG 40516 --- [http-nio-8080-exec-36] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:16:109 DEBUG 40516 --- [http-nio-8080-exec-36] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:16:110 DEBUG 40516 --- [http-nio-8080-exec-36] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:16:111 DEBUG 40516 --- [http-nio-8080-exec-36] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:34:643 DEBUG 40516 --- [http-nio-8080-exec-33] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:34:643 DEBUG 40516 --- [http-nio-8080-exec-33] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:34:665 DEBUG 40516 --- [http-nio-8080-exec-33] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:34:667 DEBUG 40516 --- [http-nio-8080-exec-33] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:34:667 DEBUG 40516 --- [http-nio-8080-exec-33] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:34:668 DEBUG 40516 --- [http-nio-8080-exec-33] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:37:432 DEBUG 40516 --- [http-nio-8080-exec-93] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:37:432 DEBUG 40516 --- [http-nio-8080-exec-93] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:37:455 DEBUG 40516 --- [http-nio-8080-exec-93] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:37:456 DEBUG 40516 --- [http-nio-8080-exec-93] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:37:456 DEBUG 40516 --- [http-nio-8080-exec-93] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:37:458 DEBUG 40516 --- [http-nio-8080-exec-93] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:48:149 DEBUG 40516 --- [http-nio-8080-exec-12] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:48:149 DEBUG 40516 --- [http-nio-8080-exec-12] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:48:168 DEBUG 40516 --- [http-nio-8080-exec-12] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:48:170 DEBUG 40516 --- [http-nio-8080-exec-12] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:48:170 DEBUG 40516 --- [http-nio-8080-exec-12] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:48:172 DEBUG 40516 --- [http-nio-8080-exec-12] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+18:23:51:262 DEBUG 40516 --- [http-nio-8080-exec-130] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+18:23:51:262 DEBUG 40516 --- [http-nio-8080-exec-130] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
+18:23:51:282 DEBUG 40516 --- [http-nio-8080-exec-130] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
+18:23:51:283 DEBUG 40516 --- [http-nio-8080-exec-130] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+18:23:51:283 DEBUG 40516 --- [http-nio-8080-exec-130] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 2(Long)
+18:23:51:285 DEBUG 40516 --- [http-nio-8080-exec-130] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 2
+21:06:45:299  WARN 40516 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h32m56s327ms499µs900ns).
+21:27:59:485  INFO 40516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+21:27:59:541  INFO 40516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
